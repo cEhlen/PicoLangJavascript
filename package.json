@@ -1,0 +1,19 @@
+{
+  "name": "PicoLangJavascript",
+  "version": "0.0.0",
+  "description": "Assignment 01 of SLE Course 2013 at University of Koblenz-Laundau",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cEhlen/PicoLangJavascript"
+  },
+  "author": "",
+  "license": "BSD",
+  "dependencies" : {
+    "argparse": "x",
+    "bash-color": "x"
+  }
+}
