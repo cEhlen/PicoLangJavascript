@@ -1,12 +1,5 @@
 This is a [assignment](http://softlang.wikidot.com/course:sle13-assignment1) for the [SLE course](http://softlang.wikidot.com/course:sle13) at the University of Koblenz-Landau. 
 
-Todo:
-- ~~Parser~~
-- ~~Type Checker~~
-- ~~Compiler~~
-- Interpreter
-- PrettyPrinter
-
 Installation
 ============
 
@@ -47,3 +40,11 @@ node main.js -tc test.pico
 ```
 This will output two files named 'picoNode_compile' and 'picoNode_typecheck' containing the output of the process.
 Note: The file will compile eaven if there is a type error!
+
+Todo
+====
+- ~~Parser~~
+- ~~Type Checker~~
+- ~~Compiler~~
+- Interpreter
+- PrettyPrinter
