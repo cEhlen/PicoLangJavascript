@@ -8,10 +8,15 @@ begin declare input : natural,
       while input - 1 do
           rep := output;
           repnr := input;
-          while repnr - 1 do
-             output := output + rep;
+          while repnr - "1" do
+             output := output + rep + "1";
              repnr := repnr - 1
           od;
           input := input - 1
-      od
+      od;
+      if input - "1" then
+        rep := output
+      else
+        output := rep
+      fi
 end

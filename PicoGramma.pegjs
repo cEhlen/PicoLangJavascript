@@ -70,7 +70,12 @@ AssignmentExpression
 	= left:Id __ AssignmentOperator __ right:Expression {
 		return {
 			type: "AssignmentExpression",
-			left: left,
+			left: { 
+				value: left,
+				type: 'id',
+				line: line,
+				column: column
+			},
 			right: right,
 			line: line,
 			column: column
@@ -103,9 +108,9 @@ BinaryExpression
 
 /* Atoms */
 Atom
-	= Id
-	/ Natural
-	/ String
+	= value:Id { return { value: value, type: 'id', line: line, column: column } }
+	/ value:Natural { return { value: value, type: 'natural', line: line, column: column } }
+	/ value:String  { return { value: value, type: 'string', line: line, column: column } }
 
 Id "identifier"
 	= !ReservedWord name:IdName { return name; }
