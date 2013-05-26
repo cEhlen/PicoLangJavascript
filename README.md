@@ -1,11 +1,11 @@
-This is a [assignment](http://softlang.wikidot.com/course:sle13-assignment1) for the SLE course at the University of Koblenz-Landau. 
+This is a [assignment](http://softlang.wikidot.com/course:sle13-assignment1) for the [SLE course](http://softlang.wikidot.com/course:sle13) at the University of Koblenz-Landau. 
 
 Todo:
-- [X] Parser
-- [X] Type Checker
-- [X] Compiler
-- [ ] Interpreter
-- [ ] PrettyPrinter
+- ~~Parser~~
+- ~~Type Checker~~
+- ~~Compiler~~
+- Interpreter
+- PrettyPrinter
 
 Installation
 ============
