@@ -38,7 +38,7 @@ If you want to typecheck and compile a Pico program inside the 'test.pico' file:
 ```shell
 node main.js -tc test.pico
 ```
-This will output two files named 'picoNode_compile' and 'picoNode_typecheck' containing the output of the process.
+This will output two files named *picoNode_compile* and *picoNode_typecheck* containing the output of the process.
 Note: The file will compile eaven if there is a type error!
 
 Todo
