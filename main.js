@@ -49,7 +49,21 @@ parser.addArgument(
   [ '-l', '--log' ],
   {
     action: 'storeTrue',
-    help: 'Outputs everything to the console'
+    help: 'Outputs everything to the console.'
+  }
+);
+parser.addArgument(
+  [ '-i', '--interpret' ],
+  {
+    action: 'storeTrue',
+    help: 'Runs the file and prints the content of the variables at the end.'
+  }
+);
+parser.addArgument(
+  [ '-f', '--pretty' ],
+  {
+    action: 'storeTrue',
+    help: 'Runs the file and prints the content of the variables at the end.'
   }
 );
 

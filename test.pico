@@ -3,7 +3,6 @@ begin declare input : natural,
               repnr : natural,
               rep : natural;
       input := 14;
-      repnr := input + (1 + 2);
       output := 1;
       while input - 1 do
           rep := output;
@@ -13,10 +12,5 @@ begin declare input : natural,
              repnr := repnr - 1
           od;
           input := input - 1
-      od;
-      if input - 1 then
-        rep := output
-      else
-        output := rep
-      fi
+      od
 end

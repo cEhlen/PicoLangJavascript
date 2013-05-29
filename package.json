@@ -13,7 +13,6 @@
   "author": "",
   "license": "BSD",
   "dependencies" : {
-    "argparse": "x",
-    "bash-color": "x"
+    "argparse": "x"
   }
 }
